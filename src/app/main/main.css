@@ -1,0 +1,61 @@
+.main-background {
+  height: 100vh;
+  min-width: 1200px;
+  background-image: url(../../assets/images/mainBackground.png);
+  background-repeat: no-repeat;
+  background-size: 88% 100%;
+  background-position: center;
+  background-color: black;
+}
+.warcraft-pattern {
+  width: 270px;
+  height: 130px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 200px;
+  background: url(../../assets/images/warcraftpattern.png);
+  background-size: 100% 100%;
+}
+.menu-items {
+  width: 587px;
+  height: 775px;
+  background: url(../../assets/images/menu.png);
+  float: right;
+  background-size: 100% 100%;
+  margin-right: 136px;
+}
+.menu-item {
+  width: 526px;
+  height: 94px;
+  margin-left: 42px;
+  background: url(../../assets/images/menuitem.png);
+  background-size: 100% 100%;
+  text-align: center;
+}
+.menu-item-one {
+  margin-top: 220px;
+}
+.menu-item-interval {
+  margin-top: 24px;
+}
+.menu-item-content-background {
+  color: yellow;
+  margin-top: 33px;
+  margin-left: 53px;
+  display: inline-block;
+  background-color: #000039;
+  height: 28px;
+  width: 380px;
+  font-size: 20px;
+}
+.menu-item-content {
+  width: 260px;
+  height: 28px;
+  display: inline-block;
+}
+.menu-item-content:hover {
+  background: -webkit-linear-gradient(left, #000039, #2b49bc, #000039);
+  -moz-border-radius: 250px / 50px;
+  -webkit-border-radius: 250px / 50px;
+  border-radius: 250px / 50px;
+}
